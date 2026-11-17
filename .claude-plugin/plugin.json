@@ -1,0 +1,23 @@
+{
+  "name": "token-analizi",
+  "version": "0.1.0",
+  "description": "Oturumun token tüketimini bileşen bazında (Skill, MCP, agent, hook, sistem istemi) ölçer; alt barda özet, tıklanınca detay paneli.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "bantGoster": {
+      "type": "boolean",
+      "title": "Alt barı göster",
+      "description": "Kapalıyken panel yalnızca /tokenlar komutuyla açılır.",
+      "default": true
+    },
+    "widget": {
+      "type": "boolean",
+      "title": "Yan sütunda widget olarak aç",
+      "description": "Masaüstü uygulamasında oturum açılınca paneli küçük widget olarak açar (yeri sürükleyerek değiştirilebilir).",
+      "default": false
+    }
+  },
+  "author": {
+    "name": "darlen02"
+  }
+}

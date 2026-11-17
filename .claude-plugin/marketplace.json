@@ -1,0 +1,5 @@
+{
+  "name": "claude-token-analizi",
+  "owner": { "name": "darlen02" },
+  "plugins": [{ "name": "token-analizi", "source": "./" }]
+}
